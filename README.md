@@ -6,22 +6,6 @@ This example uses:
 [`react-three-fiber`](https://github.com/pmndrs/react-three-fiber): A React renderer for Threejs on the web and react-native.
 [`drei`](https://github.com/pmndrs/drei): A growing collection of useful helpers and abstractions for react-three-fiber.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-three-js with-three-js-app
-```
-
-```bash
-yarn create next-app --example with-three-js with-three-js-app
-```
-
-```bash
-pnpm create next-app --example with-three-js with-three-js-app
-```
-
 
 ![image](https://user-images.githubusercontent.com/102738962/231756836-9260fea2-042b-4d8c-a462-a16113a24e61.png)
 
