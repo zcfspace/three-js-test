@@ -22,7 +22,6 @@ yarn create next-app --example with-three-js with-three-js-app
 pnpm create next-app --example with-three-js with-three-js-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ![image](https://user-images.githubusercontent.com/102738962/231756836-9260fea2-042b-4d8c-a462-a16113a24e61.png)
 
