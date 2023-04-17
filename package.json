@@ -11,6 +11,8 @@
     "next": "latest",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-stl-viewer": "^2.2.5",
+    "styled-components": "^5.3.9",
     "three": "0.139.2"
   }
 }

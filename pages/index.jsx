@@ -1,12 +1,15 @@
-import styled from "styled-components";
 import Link from "next/link";
+import styled from "styled-components";
 
 export default function WelcomeView() {
   return (
     <SContainer>
       <SH1>Welcome to the Three.js Test App</SH1>
-      <Link href="/boxes">
-        <SButton>Go to App</SButton>
+      <Link href="/box">
+        <SButton>Go to Box App </SButton>
+      </Link>
+      <Link href="/pikachu">
+        <SButton>Go to Pikachu App</SButton>
       </Link>
     </SContainer>
   );
