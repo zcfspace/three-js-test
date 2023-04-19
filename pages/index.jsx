@@ -8,8 +8,11 @@ export default function WelcomeView() {
       <Link href="/box">
         <SButton>Go to Box App </SButton>
       </Link>
-      <Link href="/pikachu">
-        <SButton>Go to Pikachu App</SButton>
+      <Link href="/pokemon">
+        <SButton>Go to Pokemon App</SButton>
+      </Link>
+      <Link href="/test2">
+        <SButton>Go to Test App</SButton>
       </Link>
     </SContainer>
   );
