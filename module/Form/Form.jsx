@@ -2,6 +2,7 @@ export default function Form({
   onAddMarker,
   onClearMarkers,
   onRemoveLastMarker,
+  onSelectPokemon,
 }) {
   function handleSubmit(event) {
     event.preventDefault();
@@ -22,13 +23,15 @@ export default function Form({
       <label htmlFor="zPosition">Z Position:</label>
       <input type="number" id="zPosition" name="zPosition" />
 
-      <select name="pokemon" id="pokemon">
+      <select name="pokemon" id="pokemon" onChange={onSelectPokemon}>
         <option value="./stl/pikachu.stl">Pikachu</option>
-        <option value="./stl/charmander.stl">Charmander</option>
         <option value="./stl/charizard.stl">Charizard</option>
+        <option value="./stl/dragonite.stl">Dragonite</option>
+        <option value="./stl/snorlax.stl">Snorlax</option>
       </select>
 
       <button type="submit">Agregar marcador</button>
+
       <button type="button" onClick={onClearMarkers}>
         Borrar Todo
       </button>
